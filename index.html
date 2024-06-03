@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jon Beck</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+
+    <section class="header">
+            <nav>
+                <a href="index.html"><img src="Images/jon_beck_logo.png" alt="logo" width="150" height="100"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <Li><a href="#home">HOME</a></Li>
+                    <Li><a href="C:\Users\hudaj\OneDrive\Desktop\John Beck\about.html">ABOUT</a></Li>
+                    <Li><a href="C:\Users\hudaj\OneDrive\Desktop\John Beck\gallery.html">GALLERY</a></Li>
+                    <Li><a href="C:\Users\hudaj\OneDrive\Desktop\John Beck\contact.html">CONTACT</a></Li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="hero-container">
+            <img class="hero-image" src="Images/background.jpg" alt="Hero Image" width="1000" height="500">
+            <div class="hero-text">
+                <h1>Capturing Moments That Last A Life Time</h1>
+                <p>Discover the world through Jon Beck's lens. Explore stunning visual narratives that speak volumes.
+                    Elevate your perspective with John Beck's Photography.</p>
+                    <a href="C:\Users\hudaj\OneDrive\Desktop\John Beck\about.html" class="hero-btn">FIND OUT MORE</a>
+            </div>
+        </div>
+        
+
+
+
+
+    </section>
+<!-- gallery -->
+<section class="gallery">
+    <h1>GALLERY</h1>
+    <p>Explore a symphony of moments frozen in time, showcasing the essence of life through his evocative photography.<br>
+    From landscapes to portraits, each image resonates with its unique story.
+    Discover the world through John Beck's eyes and immerse yourself in a gallery that speaks volumes through the art of photography.</p>
+
+    <div class="row">
+        <div class="gallery-col">
+            <h3>Portraits</h3>
+            <img class="actor-img" src="Images/actor1.jpg" alt="actor1" width="200" height="200">
+            <p>An action-oriented portrait capturing energy and dynamism, suitable for those in dynamic and active professions.</p>
+        </div>
+        <div class="gallery-col">
+            <h3>Architecture</h3>
+            <img class="building-img" src="Images/building1.jpg" alt="building1" width="200" height="200">
+            <p>Architectural marvels showcasing diverse buildings from iconic landmarks to modern skyscrapers.</p>
+        </div>
+        <div class="gallery-col">
+            <h3>Street Photography</h3>
+            <img class="landscapes" src="Images/landscape1.jpg" alt="landscape1" width="200" height="200">
+            <p>
+                Captivating snapshots of diverse landscapes showcasing the beauty of nature, from majestic mountain ranges to serene coastal vistas.</p>
+        </div>
+
+    </div>
+        
+        <a href="C:\Users\hudaj\OneDrive\Desktop\John Beck\gallery.html" class="gallery-btn">VIEW MORE</a>
+        
+        
+
+</section>
+<!-- call to action -->
+<section class="cta">
+    <h1>Get in touch with us to explore endless possibilities.<br>
+        Your inquiries matter we're here to assist!</h1>
+        <div id="container">
+            <a href="C:\Users\hudaj\OneDrive\Desktop\John Beck\contact.html" class="hero-btn1">CONTACT US</a>
+        </div>
+        
+    
+        
+</section>
+<footer>
+    
+    <div class="footerContainer">
+        <img src="Images/jon_beck_logo.png" class="logo" width="150" height="100">
+        <div class="socialicons">
+            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="footerNav">
+            <ul>
+                <Li><a href="#home">Home</a></Li>
+                <Li><a href="C:\Users\hudaj\OneDrive\Desktop\John Beck\about.html">About</a></Li>
+                <Li><a href="C:\Users\hudaj\OneDrive\Desktop\John Beck\gallery.html">Gallery</a></Li>
+                <Li><a href="C:\Users\hudaj\OneDrive\Desktop\John Beck\contact.html">Contact</a></Li>
+            </ul>
+        </div>
+       
+
+    </div>
+    <div class="footerBottom">
+        <p>Copyright &copy;2023; Designed by <span class="designer">Huda Jukaku</span></p>
+    </div>
+
+</footer>
+    
+   
+
+
+<!-- Js -->
+<script>
+
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right= "0";
+    }
+    function hideMenu(){
+        navLinks.style.right= "-200px";
+    }
+</script>
+
+</body>
+</html>
